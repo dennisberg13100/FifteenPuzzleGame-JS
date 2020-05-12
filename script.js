@@ -3,8 +3,21 @@ const ctx = cvs.getContext("2d");
 
 const COL = 4; 
 const ROW = 4; 
-const SQ = 100;
+const SQ = sqSize();
+
+function sqSize(){
+	if(screen.width >= 425) {
+		return 100;
+	} else {
+		ctx.canvas.width  = 320;
+  		ctx.canvas.height = 320;
+		return 80;
+	}
+}
+
 let randomNumbers = [];
+
+console.log(screen.width);
 
 // Draw the square
 function drawSquare(x, y, n) {
