@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #6aa4d8;
+	text-align: center;
+	background: rgb(44,154,210);
+	/* gradiente generated at https://cssgradient.io/ */
+	background: -moz-radial-gradient(circle, rgba(44,154,210,1) 0%, rgba(13,39,59,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(44,154,210,1) 0%, rgba(13,39,59,1) 100%);
+	background: radial-gradient(circle, rgba(44,154,210,1) 0%, rgba(13,39,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2c9ad2",endColorstr="#0d273b",GradientType=1);
+}
+canvas {
+	margin: auto;
+	border: 5px solid #000;
+	box-shadow: 0px 0px 20px #fff;
+}
+h1 {
+	font-size: 35px;
+    text-shadow: 0px 0px 20px #fff, 0px 0px 10px #fff;
+}
+#victory {
+	color: red;
+	display: none;
+	font-size: 50px;
+}
